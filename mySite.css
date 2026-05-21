@@ -475,6 +475,7 @@ textarea, input {
   
     .fact-row {
      flex-wrap: wrap;
+	 margin: 10px;
     }
   
   .fact-text.show {
@@ -578,6 +579,7 @@ textarea, input {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    margin: 10px;
   }
   
   .fact-text.show {

@@ -596,13 +596,13 @@ textarea, input {
     margin: 20px auto !important;
   }
   
-  .contact-maps, .contact-info {
+  .contact-map, .contact-info {
     width: 100% !important;
     flex: none !important;
     box-sizing: border-box !important;
   }
   
-  .contact-maps iframe {
+  .contact-map iframe {
     width: 100% !important;
     height: 250px !important;
   }

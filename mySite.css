@@ -12,6 +12,7 @@ header {
   color: white;
   padding: 15px 0 20px 0;
   min-height: 90px;
+  z-index: 100;
 }
 
 #header2 {
@@ -60,12 +61,16 @@ footer {
   color: white;
   height: 90px;
   margin-top: auto;
+  padding: 15px 0 20px 0;
+  min-height: 90px;
+  
 }
 
 .podval {
   margin: 5px;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+  margin-left: 30px;
   opacity: 0.9;
 }
 
@@ -475,7 +480,6 @@ textarea, input {
   
     .fact-row {
      flex-wrap: wrap;
-	 margin: 10px;
     }
   
   .fact-text.show {
@@ -579,7 +583,6 @@ textarea, input {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: 10px;
   }
   
   .fact-text.show {
@@ -598,13 +601,13 @@ textarea, input {
     margin: 20px auto !important;
   }
   
-  .contact-map, .contact-info {
+  .contact-maps, .contact-info {
     width: 100% !important;
     flex: none !important;
     box-sizing: border-box !important;
   }
   
-  .contact-map iframe {
+  .contact-maps iframe {
     width: 100% !important;
     height: 250px !important;
   }

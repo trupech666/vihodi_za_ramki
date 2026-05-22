@@ -31,4 +31,3 @@ sendBtn.addEventListener("click", function(event) {
         }
     });
 }
-};

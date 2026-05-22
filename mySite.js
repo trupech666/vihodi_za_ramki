@@ -5,12 +5,14 @@ const lastNameInput = document.getElementById("LastName");
 const emailInput = document.getElementById("email");
 const commInput = document.getElementById("comm");
 
-clearBtn.onclick = function() {
-  nameInput.value = "";
-  lastNameInput.value = "";
-  emailInput.value = "";
-  commInput.value = "";
-};
+if (clearBtn) {
+    clearBtn.addEventListener("click", function() {
+        nameInput.value = "";
+        lastNameInput.value = "";
+        emailInput.value = "";
+        commInput.value = "";
+    });
+}
 	
 sendBtn.onclick = function() {
   if (nameInput.value === "") {
